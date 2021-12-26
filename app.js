@@ -6,7 +6,6 @@ const express = require('express')
 const app = express()
 
 //Components
-const Post = require('./api/models/Post')
 const router = require('./api/routes/posts')
 //App middlewares
 app.use(express.json())
